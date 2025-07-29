@@ -192,12 +192,54 @@ aside:hover {
   background-color: rgba(154, 140, 152, 0.8);
 }
 
+.form-section {
+  max-width: 100%;
+  margin: 2rem;
+}
+form {
+  max-width: 100%;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 1rem 0;
+  gap: 2rem;
+  max-width: 500px;
+}
+.form-title{
+  font-size: 1rem;
+  font-weight: 600;
+}
+label{
+  font-weight: 600;
+}
+.input-block {
+  width: 100%;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 5px;
+}
+input[type="submit"] {
+  padding: 16px 20px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+}
+
 footer {
   background-color: #22223b;
   text-align: center;
   color: #fff;
   padding: 1rem;
 }
+
+/* >>>>>>> Desktop layout */
 @media screen and (min-width: 768px) {
   .desktop-container {
     display: flex;
