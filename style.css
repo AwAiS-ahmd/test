@@ -114,7 +114,7 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  flex:auto;
+  flex:100%;
 }
 
 article {
@@ -199,9 +199,6 @@ footer {
   color: #fff;
   padding: 1rem;
   margin-top: 2rem;
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
 }
 @media screen and (min-width: 768px) {
   .desktop-container {
