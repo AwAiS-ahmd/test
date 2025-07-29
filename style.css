@@ -73,9 +73,9 @@ h2 {
   width: 2.5rem;
   height: 2.5rem;
 }
-/* .main-wrapper {
-  flex: auto;
-} */
+.main-wrapper {
+  flex: 1;
+}
 
 .menu-icon,
 .close {
