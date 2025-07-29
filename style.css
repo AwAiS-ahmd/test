@@ -75,6 +75,7 @@ h2 {
 }
 .main-wrapper {
   flex: 1;
+  margin-bottom: 1rem;
 }
 
 .menu-icon,
@@ -114,7 +115,7 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  flex:100%;
+  flex: 100%;
 }
 
 article {
@@ -180,7 +181,6 @@ article:hover {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-
 aside {
   background-color: #9a8c98;
   padding: 1rem;
@@ -192,13 +192,11 @@ aside:hover {
   background-color: rgba(154, 140, 152, 0.8);
 }
 
-
 footer {
   background-color: #22223b;
   text-align: center;
   color: #fff;
   padding: 1rem;
-  margin-top: 2rem;
 }
 @media screen and (min-width: 768px) {
   .desktop-container {
@@ -281,5 +279,8 @@ footer {
   }
   .close {
     display: none;
+  }
+  footer {
+    margin-top: 2rem;
   }
 }
